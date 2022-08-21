@@ -1,0 +1,41 @@
+#download{
+    background: linear-gradient(lightblue, rgb(112, 119, 218));
+    text-align: center;
+    align-content: center;
+    color: var(--color-white);
+}
+
+.download h2{
+    font-size: 3rem;
+    font-weight:200;
+    color: var(--color-white);
+    margin: 1rem 2rem;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.download p{
+    font-size: 1.5rem;
+    font-weight:200;
+    color: var(--color-white);
+}
+
+.download-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 2rem;
+}
+
+.download-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border: 2px solid var(--color-white);
+    font-size: 1.5rem;
+    font-weight: 200;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}

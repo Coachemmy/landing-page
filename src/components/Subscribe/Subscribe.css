@@ -1,0 +1,71 @@
+#subscribe{
+    background: url(../../assets/subscribe-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.subscribe h2{
+    font-size: 3rem;
+    color: var(--color-white);
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+form{
+    width: 100%;
+    max-width: 50rem;;
+    margin: 3rem auto;
+}
+
+form input{
+    padding: 1rem;
+    background: transparent;
+    border: 1px solid #777;
+    border-radius: 5px 0 0 5px;
+    color: var(--color-white);
+    width: 80%;
+    outline: none;
+}
+
+form button{
+    padding: 1rem;
+    background: rgb(81, 182, 245);
+    border: 1px solid #777;
+    border-radius:  0   5px 5px 0;
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 1.3rem;
+    
+    
+}
+
+.social-icons{
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon{
+    color: var(--color-white);
+    display: flex;
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-white);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 1.4s;
+
+}
+
+.social-icon:hover{
+    background: var(--light-blue);
+}
